@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var hashbangify = require('../lib/hashbangify');
+
+if (!(process.argv[2] && process.argv[3])) {
+  console.error('Usage: hashbangify oldfile newfile');
+  process.exit(1);
+}
+
+hashbangify.hashbangify(process.argv[2], process.argv[3]);
+

@@ -1,0 +1,22 @@
+{
+    "name" : "hashbangify",
+    "preferGlobal": "true",
+    "version" : "0.0.0",
+    "author": "AvianFlu <charlie@charlieistheman.com>",
+    "description" : "Make your node scripts executable!",
+    "bin": {
+      "hashbangify": "./bin/hashbangify"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/AvianFlu/hashbangify.git"
+    },
+    "keywords" : [
+        "cli",
+        "hashbang"
+    ],
+    "license" : "MIT",
+    "engine" : {
+        "node" : ">=0.4"
+    }
+}
