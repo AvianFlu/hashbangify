@@ -16,6 +16,5 @@ This script will do several things.
 - read your target script into memory.
 - delete it.
 - open a new file with the same name, starting with the appropriate hashbang.
-  - hashbangs are specifically made for your system by calling `which`.
 - write your target script back to the file.
 - `chmod 0755` is then called prior to exit.
