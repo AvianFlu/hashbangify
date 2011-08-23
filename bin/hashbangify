@@ -2,10 +2,11 @@
 
 var hashbangify = require('../lib/hashbangify');
 
-if (!(process.argv[2] && process.argv[3])) {
-  console.error('Usage: hashbangify oldfile newfile');
+if (!process.argv[2]) {
+  console.error('Usage: hashbangify [file] [interpreter]');
+  console.error('[interpreter] Defaults to node.');
   process.exit(1);
 }
 
-hashbangify.hashbangify(process.argv[2], process.argv[3]);
+hashbangify.hashbangify(process.argv[2], process.argv[3] || 'node');
 

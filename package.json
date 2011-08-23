@@ -1,7 +1,7 @@
 {
     "name" : "hashbangify",
     "preferGlobal": "true",
-    "version" : "0.0.0",
+    "version" : "0.1.0",
     "author": "AvianFlu <charlie@charlieistheman.com>",
     "description" : "Make your node scripts executable!",
     "bin": {
