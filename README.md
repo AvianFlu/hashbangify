@@ -1,5 +1,7 @@
 # hashbangify - make your node scripts executable!
 
+## v0.1.0
+
 ## Installation
 
 `hashbangify` is on `npm`:
@@ -9,6 +11,8 @@
 ## Usage
 
 Usage: `hashbangify myScript.js [interpreter]`
+
+`interpreter` defaults to `node`.
 
 This script will do several things.
 
