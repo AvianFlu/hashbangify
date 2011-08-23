@@ -8,9 +8,10 @@
 
 ## Usage
 
-Usage: hashbangify myScript.js [interpreter]
+Usage: `hashbangify myScript.js [interpreter]`
 
 This script will do several things.
+
 - find where your interpreter is installed by calling `which`.
 - read your target script into memory.
 - delete it.
