@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/AvianFlu/hashbangify.png)](http://travis-ci.org/AvianFlu/hashbangify)
 # hashbangify - make your node scripts executable!
 
 ## v0.1.0
